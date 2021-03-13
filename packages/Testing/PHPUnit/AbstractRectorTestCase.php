@@ -19,7 +19,6 @@ use Rector\Core\NonPhpFile\NonPhpFileProcessor;
 use Rector\Core\PhpParser\Printer\BetterStandardPrinter;
 use Rector\Core\ValueObject\StaticNonPhpFileSuffixes;
 use Rector\NodeTypeResolver\Reflection\BetterReflection\SourceLocatorProvider\DynamicSourceLocatorProvider;
-use Rector\Testing\Guard\FixtureGuard;
 use Rector\Testing\PHPUnit\Behavior\MovingFilesTrait;
 use Symplify\EasyTesting\DataProvider\StaticFixtureFinder;
 use Symplify\EasyTesting\DataProvider\StaticFixtureUpdater;
@@ -27,7 +26,6 @@ use Symplify\EasyTesting\StaticFixtureSplitter;
 use Symplify\PackageBuilder\Parameter\ParameterProvider;
 use Symplify\PackageBuilder\Testing\AbstractKernelTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
-use Symplify\SmartFileSystem\SmartFileSystem;
 
 abstract class AbstractRectorTestCase extends AbstractKernelTestCase
 {
@@ -39,11 +37,6 @@ abstract class AbstractRectorTestCase extends AbstractKernelTestCase
     protected $fileProcessor;
 
     /**
-     * @var SmartFileSystem
-     */
-    protected static $smartFileSystem;
-
-    /**
      * @var NonPhpFileProcessor
      */
     protected $nonPhpFileProcessor;
@@ -52,11 +45,6 @@ abstract class AbstractRectorTestCase extends AbstractKernelTestCase
      * @var ParameterProvider
      */
     protected $parameterProvider;
-
-    /**
-     * @var FixtureGuard
-     */
-    protected static $fixtureGuard;
 
     /**
      * @var RemovedAndAddedFilesCollector
@@ -125,8 +113,6 @@ abstract class AbstractRectorTestCase extends AbstractKernelTestCase
      */
     protected function doTestFileInfo(SmartFileInfo $fixtureFileInfo, array $extraFileInfos = []): void
     {
-        self::$fixtureGuard->ensureFileInfoHasDifferentBeforeAndAfterContent($fixtureFileInfo);
-
         $inputFileInfoAndExpectedFileInfo = StaticFixtureSplitter::splitFileInfoToLocalInputAndExpectedFileInfos(
             $fixtureFileInfo,
             false
@@ -266,8 +252,6 @@ abstract class AbstractRectorTestCase extends AbstractKernelTestCase
             return;
         }
 
-        self::$smartFileSystem = new SmartFileSystem();
-        self::$fixtureGuard = new FixtureGuard();
         self::$rectorConfigsResolver = new RectorConfigsResolver();
         self::$isInitialized = true;
     }
