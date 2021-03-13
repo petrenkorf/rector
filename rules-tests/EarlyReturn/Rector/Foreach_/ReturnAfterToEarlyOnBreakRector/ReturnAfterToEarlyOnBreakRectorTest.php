@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\EarlyReturn\Rector\Foreach_\ReturnAfterToEarlyOnBreakRector;
 
 use Iterator;
-use Rector\EarlyReturn\Rector\Foreach_\ReturnAfterToEarlyOnBreakRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

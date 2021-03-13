@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-use Rector\Naming\Rector\Property\UnderscoreToCamelCasePropertyNameRector;
+use Rector\PHPUnit\Rector\ClassMethod\MigrateAtToConsecutiveExpectationsRector;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator): void {
     $services = $containerConfigurator->services();
 
-    $services->set(UnderscoreToCamelCasePropertyNameRector::class);
+    $services->set(MigrateAtToConsecutiveExpectationsRector::class);
 };

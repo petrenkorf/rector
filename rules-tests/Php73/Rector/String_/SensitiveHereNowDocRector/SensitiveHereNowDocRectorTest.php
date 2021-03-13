@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php73\Rector\String_\SensitiveHereNowDocRector;
 
 use Iterator;
-use Rector\Php73\Rector\String_\SensitiveHereNowDocRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

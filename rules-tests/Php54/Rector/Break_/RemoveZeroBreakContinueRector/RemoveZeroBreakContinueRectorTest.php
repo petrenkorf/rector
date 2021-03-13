@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php54\Rector\Break_\RemoveZeroBreakContinueRector;
 
 use Iterator;
-use Rector\Php54\Rector\Break_\RemoveZeroBreakContinueRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

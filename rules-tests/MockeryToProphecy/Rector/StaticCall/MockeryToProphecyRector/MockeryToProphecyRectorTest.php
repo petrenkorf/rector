@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\MockeryToProphecy\Rector\StaticCall\MockeryToProphecyRector;
 
 use Iterator;
-use Rector\MockeryToProphecy\Rector\StaticCall\MockeryCloseRemoveRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

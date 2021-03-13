@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\ClassMethod\ReturnTypeFromStrictTy
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\ClassMethod\ReturnTypeFromStrictTypedPropertyRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class ReturnTypeFromStrictTypedPropertyRectorTest extends AbstractRectorTestCase

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\NetteToSymfony\Rector\MethodCall\WrapTransParameterNameRector;
 
 use Iterator;
-use Rector\NetteToSymfony\Rector\MethodCall\WrapTransParameterNameRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

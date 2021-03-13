@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadCode\Rector\TryCatch\RemoveDeadTryCatchRector;
 
 use Iterator;
-use Rector\DeadCode\Rector\TryCatch\RemoveDeadTryCatchRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

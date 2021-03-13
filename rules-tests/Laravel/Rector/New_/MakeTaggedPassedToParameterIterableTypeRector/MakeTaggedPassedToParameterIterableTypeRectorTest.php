@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Laravel\Rector\New_\MakeTaggedPassedToParameterIterableTypeRector;
 
 use Iterator;
-use Rector\Laravel\Rector\New_\MakeTaggedPassedToParameterIterableTypeRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

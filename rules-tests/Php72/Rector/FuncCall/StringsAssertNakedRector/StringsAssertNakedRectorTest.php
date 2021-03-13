@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php72\Rector\FuncCall\StringsAssertNakedRector;
 
 use Iterator;
-use Rector\Php72\Rector\FuncCall\StringsAssertNakedRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

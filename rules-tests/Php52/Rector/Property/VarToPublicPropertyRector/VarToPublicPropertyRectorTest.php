@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php52\Rector\Property\VarToPublicPropertyRector;
 
 use Iterator;
-use Rector\Php52\Rector\Property\VarToPublicPropertyRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

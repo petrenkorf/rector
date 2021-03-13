@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\ClassMethod\AddVoidReturnTypeWhere
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\ClassMethod\AddVoidReturnTypeWhereNoReturnRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class AddVoidReturnTypeWhereNoReturnRectorTest extends AbstractRectorTestCase

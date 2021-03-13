@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php72\Rector\Assign\ReplaceEachAssignmentWithKeyCurrentRector;
 
 use Iterator;
-use Rector\Php72\Rector\Assign\ReplaceEachAssignmentWithKeyCurrentRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use SplFileInfo;
 use Symplify\SmartFileSystem\SmartFileInfo;

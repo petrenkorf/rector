@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php56\Rector\FuncCall\PowToExpRector;
 
 use Iterator;
-use Rector\Php56\Rector\FuncCall\PowToExpRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\ClassMethod\ReturnTypeFromReturnNe
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\ClassMethod\ReturnTypeFromReturnNewRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class ReturnTypeFromReturnNewRectorTest extends AbstractRectorTestCase

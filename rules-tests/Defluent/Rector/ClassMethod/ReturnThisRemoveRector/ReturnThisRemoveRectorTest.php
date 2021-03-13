@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Defluent\Rector\ClassMethod\ReturnThisRemoveRector;
 
 use Iterator;
-use Rector\Defluent\Rector\ClassMethod\ReturnThisRemoveRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

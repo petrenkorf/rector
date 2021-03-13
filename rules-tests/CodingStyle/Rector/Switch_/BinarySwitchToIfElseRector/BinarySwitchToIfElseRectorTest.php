@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodingStyle\Rector\Switch_\BinarySwitchToIfElseRector;
 
 use Iterator;
-use Rector\CodingStyle\Rector\Switch_\BinarySwitchToIfElseRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\MethodCall\FormerNullableArgumentT
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\MethodCall\FormerNullableArgumentToScalarTypedRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class FormerNullableArgumentToScalarTypedRectorTest extends AbstractRectorTestCase

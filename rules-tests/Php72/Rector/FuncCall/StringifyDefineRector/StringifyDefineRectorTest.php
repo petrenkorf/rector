@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php72\Rector\FuncCall\StringifyDefineRector;
 
 use Iterator;
-use Rector\Php72\Rector\FuncCall\StringifyDefineRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

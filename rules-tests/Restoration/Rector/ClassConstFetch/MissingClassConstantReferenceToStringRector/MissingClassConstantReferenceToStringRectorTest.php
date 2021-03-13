@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Restoration\Rector\ClassConstFetch\MissingClassConstantReferenceToStringRector;
 
 use Iterator;
-use Rector\Restoration\Rector\ClassConstFetch\MissingClassConstantReferenceToStringRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Order\Rector\Class_\OrderMethodsByVisibilityRector;
 
 use Iterator;
-use Rector\Order\Rector\Class_\OrderMethodsByVisibilityRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

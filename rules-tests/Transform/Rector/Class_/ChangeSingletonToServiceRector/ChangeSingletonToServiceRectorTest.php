@@ -6,7 +6,6 @@ namespace Rector\Tests\Transform\Rector\Class_\ChangeSingletonToServiceRector;
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\Transform\Rector\Class_\ChangeSingletonToServiceRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class ChangeSingletonToServiceRectorTest extends AbstractRectorTestCase

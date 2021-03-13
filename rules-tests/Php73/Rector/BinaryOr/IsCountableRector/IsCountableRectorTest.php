@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php73\Rector\BinaryOr\IsCountableRector;
 
 use Iterator;
-use Rector\Php73\Rector\BooleanOr\IsCountableRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

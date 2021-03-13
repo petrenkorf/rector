@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\Ternary\SimplifyDuplicatedTernaryRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\Ternary\SimplifyDuplicatedTernaryRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

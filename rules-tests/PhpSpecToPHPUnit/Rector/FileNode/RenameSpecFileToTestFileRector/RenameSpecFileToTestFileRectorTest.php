@@ -7,7 +7,6 @@ namespace Rector\Tests\PhpSpecToPHPUnit\Rector\FileNode\RenameSpecFileToTestFile
 use Iterator;
 use Nette\Utils\Strings;
 use Rector\FileSystemRector\Contract\MovedFileInterface;
-use Rector\PhpSpecToPHPUnit\Rector\FileNode\RenameSpecFileToTestFileRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

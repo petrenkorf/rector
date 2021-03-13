@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\PHPOffice\Rector\MethodCall\ChangeConditionalReturnedCellRector;
 
 use Iterator;
-use Rector\PHPOffice\Rector\MethodCall\ChangeConditionalReturnedCellRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

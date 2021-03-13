@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodingStyle\Rector\Include_\FollowRequireByDirRector;
 
 use Iterator;
-use Rector\CodingStyle\Rector\Include_\FollowRequireByDirRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php55\Rector\FuncCall\PregReplaceEModifierRector;
 
 use Iterator;
-use Rector\Php55\Rector\FuncCall\PregReplaceEModifierRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

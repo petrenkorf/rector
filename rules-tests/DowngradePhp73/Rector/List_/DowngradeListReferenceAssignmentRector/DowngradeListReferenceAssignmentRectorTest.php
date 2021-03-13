@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DowngradePhp73\Rector\List_\DowngradeListReferenceAssignmentRector;
 
 use Iterator;
-use Rector\DowngradePhp73\Rector\List_\DowngradeListReferenceAssignmentRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Laravel\Rector\Class_\PropertyDeferToDeferrableProviderToRector;
 
 use Iterator;
-use Rector\Laravel\Rector\Class_\PropertyDeferToDeferrableProviderToRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

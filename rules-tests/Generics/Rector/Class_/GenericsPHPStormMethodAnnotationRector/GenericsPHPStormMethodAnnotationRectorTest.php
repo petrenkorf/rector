@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Generics\Rector\Class_\GenericsPHPStormMethodAnnotationRector;
 
 use Iterator;
-use Rector\Generics\Rector\Class_\GenericsPHPStormMethodAnnotationRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

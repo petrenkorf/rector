@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\NetteCodeQuality\Rector\Identical\SubstrMinusToStringEndsWithRector;
 
 use Iterator;
-use Rector\NetteCodeQuality\Rector\Identical\SubstrMinusToStringEndsWithRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

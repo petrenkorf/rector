@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php70\Rector\FuncCall\NonVariableToVariableOnFunctionCallRector;
 
 use Iterator;
-use Rector\Php70\Rector\FuncCall\NonVariableToVariableOnFunctionCallRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

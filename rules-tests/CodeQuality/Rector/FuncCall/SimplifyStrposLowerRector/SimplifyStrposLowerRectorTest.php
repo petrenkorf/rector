@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\FuncCall\SimplifyStrposLowerRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\FuncCall\SimplifyStrposLowerRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

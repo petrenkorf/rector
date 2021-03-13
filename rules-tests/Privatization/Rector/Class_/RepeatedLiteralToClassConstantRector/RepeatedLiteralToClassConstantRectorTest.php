@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Privatization\Rector\Class_\RepeatedLiteralToClassConstantRector;
 
 use Iterator;
-use Rector\Privatization\Rector\Class_\RepeatedLiteralToClassConstantRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

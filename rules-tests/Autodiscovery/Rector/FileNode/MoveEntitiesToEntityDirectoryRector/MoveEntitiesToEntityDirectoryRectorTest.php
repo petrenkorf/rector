@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Autodiscovery\Rector\FileNode\MoveEntitiesToEntityDirectoryRector;
 
 use Iterator;
-use Rector\Autodiscovery\Rector\FileNode\MoveEntitiesToEntityDirectoryRector;
 use Rector\FileSystemRector\ValueObject\AddedFileWithContent;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;

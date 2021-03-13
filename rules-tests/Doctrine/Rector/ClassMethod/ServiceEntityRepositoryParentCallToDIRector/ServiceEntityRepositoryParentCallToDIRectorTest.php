@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Doctrine\Rector\ClassMethod\ServiceEntityRepositoryParentCallToDIRector;
 
 use Iterator;
-use Rector\Doctrine\Rector\ClassMethod\ServiceEntityRepositoryParentCallToDIRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DowngradePhp80\Rector\Class_\DowngradePropertyPromotionRector;
 
 use Iterator;
-use Rector\DowngradePhp80\Rector\Class_\DowngradePropertyPromotionRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

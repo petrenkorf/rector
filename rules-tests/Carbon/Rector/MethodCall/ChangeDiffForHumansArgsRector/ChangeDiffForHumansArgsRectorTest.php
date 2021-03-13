@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Carbon\Rector\MethodCall\ChangeDiffForHumansArgsRector;
 
 use Iterator;
-use Rector\Carbon\Rector\MethodCall\ChangeDiffForHumansArgsRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

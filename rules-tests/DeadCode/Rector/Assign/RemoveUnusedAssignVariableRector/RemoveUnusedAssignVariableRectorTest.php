@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadCode\Rector\Assign\RemoveUnusedAssignVariableRector;
 
 use Iterator;
-use Rector\DeadCode\Rector\Assign\RemoveUnusedAssignVariableRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

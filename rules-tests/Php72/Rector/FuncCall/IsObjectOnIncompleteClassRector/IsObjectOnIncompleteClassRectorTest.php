@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php72\Rector\FuncCall\IsObjectOnIncompleteClassRector;
 
 use Iterator;
-use Rector\Php72\Rector\FuncCall\IsObjectOnIncompleteClassRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

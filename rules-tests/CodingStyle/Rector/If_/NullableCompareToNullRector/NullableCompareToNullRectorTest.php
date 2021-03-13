@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodingStyle\Rector\If_\NullableCompareToNullRector;
 
 use Iterator;
-use Rector\CodingStyle\Rector\If_\NullableCompareToNullRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadCode\Rector\If_\SimplifyIfElseWithSameContentRector;
 
 use Iterator;
-use Rector\DeadCode\Rector\If_\SimplifyIfElseWithSameContentRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

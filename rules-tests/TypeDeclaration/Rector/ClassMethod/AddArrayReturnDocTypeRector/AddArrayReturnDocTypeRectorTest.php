@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\ClassMethod\AddArrayReturnDocTypeR
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\ClassMethod\AddArrayReturnDocTypeRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class AddArrayReturnDocTypeRectorTest extends AbstractRectorTestCase

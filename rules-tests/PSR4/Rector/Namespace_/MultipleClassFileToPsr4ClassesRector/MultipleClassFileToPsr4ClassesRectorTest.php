@@ -7,7 +7,6 @@ namespace Rector\Tests\PSR4\Rector\Namespace_\MultipleClassFileToPsr4ClassesRect
 use Iterator;
 use Rector\Core\Application\FileSystem\RemovedAndAddedFilesCollector;
 use Rector\FileSystemRector\ValueObject\AddedFileWithContent;
-use Rector\PSR4\Rector\Namespace_\MultipleClassFileToPsr4ClassesRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 use Symplify\SmartFileSystem\SmartFileSystem;

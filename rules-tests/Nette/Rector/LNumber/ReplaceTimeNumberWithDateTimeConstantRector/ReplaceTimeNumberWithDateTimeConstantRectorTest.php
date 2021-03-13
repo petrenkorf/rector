@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Nette\Rector\LNumber\ReplaceTimeNumberWithDateTimeConstantRector;
 
 use Iterator;
-use Rector\Nette\Rector\LNumber\ReplaceTimeNumberWithDateTimeConstantRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Defluent\Rector\Return_\DefluentReturnMethodCallRector;
 
 use Iterator;
-use Rector\Defluent\Rector\Return_\DefluentReturnMethodCallRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

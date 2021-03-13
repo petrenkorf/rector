@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadDocBlock\Rector\ClassMethod\RemoveUselessReturnTagRector;
 
 use Iterator;
-use Rector\DeadDocBlock\Rector\ClassMethod\RemoveUselessReturnTagRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use SplFileInfo;
 use Symplify\SmartFileSystem\SmartFileInfo;

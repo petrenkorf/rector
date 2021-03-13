@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadCode\Rector\Assign\RemoveDoubleAssignRector;
 
 use Iterator;
-use Rector\DeadCode\Rector\Assign\RemoveDoubleAssignRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

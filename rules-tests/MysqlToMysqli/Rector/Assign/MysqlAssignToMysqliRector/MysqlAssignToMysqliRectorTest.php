@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\MysqlToMysqli\Rector\Assign\MysqlAssignToMysqliRector;
 
 use Iterator;
-use Rector\MysqlToMysqli\Rector\Assign\MysqlAssignToMysqliRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

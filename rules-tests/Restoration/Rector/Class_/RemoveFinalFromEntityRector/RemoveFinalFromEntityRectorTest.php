@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Restoration\Rector\Class_\RemoveFinalFromEntityRector;
 
 use Iterator;
-use Rector\Restoration\Rector\Class_\RemoveFinalFromEntityRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\Property\TypedPropertyFromStrictCo
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\Property\TypedPropertyFromStrictConstructorRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 /**

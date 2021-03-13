@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DoctrineGedmoToKnplabs\Rector\Class_\LoggableBehaviorRector;
 
 use Iterator;
-use Rector\DoctrineGedmoToKnplabs\Rector\Class_\LoggableBehaviorRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

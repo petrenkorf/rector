@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php55\Rector\Class_\ClassConstantToSelfClassRector;
 
 use Iterator;
-use Rector\Php55\Rector\Class_\ClassConstantToSelfClassRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

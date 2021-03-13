@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\Identical\SimplifyArraySearchRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\Identical\SimplifyArraySearchRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php74\Rector\Property\RestoreDefaultNullToNullableTypePropertyRector;
 
 use Iterator;
-use Rector\Php74\Rector\Property\RestoreDefaultNullToNullableTypePropertyRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php74\Rector\Property\TypedPropertyRector;
 
 use Iterator;
-use Rector\Php74\Rector\Property\TypedPropertyRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
@@ -29,6 +28,6 @@ final class UnionTypedPropertyRectorTest extends AbstractRectorTestCase
 
     public function provideConfigFilePath(): string
     {
-        return __DIR__ . '/config/configured_rule.php';
+        return __DIR__ . '/config/union_type_rule.php';
     }
 }

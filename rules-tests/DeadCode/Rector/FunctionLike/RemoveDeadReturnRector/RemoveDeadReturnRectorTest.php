@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadCode\Rector\FunctionLike\RemoveDeadReturnRector;
 
 use Iterator;
-use Rector\DeadCode\Rector\FunctionLike\RemoveDeadReturnRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

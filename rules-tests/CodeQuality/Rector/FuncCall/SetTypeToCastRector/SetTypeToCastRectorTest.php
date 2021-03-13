@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\FuncCall\SetTypeToCastRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\FuncCall\SetTypeToCastRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

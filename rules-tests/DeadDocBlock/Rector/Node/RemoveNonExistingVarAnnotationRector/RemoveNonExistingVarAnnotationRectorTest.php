@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadDocBlock\Rector\Node\RemoveNonExistingVarAnnotationRector;
 
 use Iterator;
-use Rector\DeadDocBlock\Rector\Node\RemoveNonExistingVarAnnotationRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

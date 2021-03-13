@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadDocBlock\Rector\Property\RemoveUselessVarTagRector;
 
 use Iterator;
-use Rector\DeadDocBlock\Rector\Property\RemoveUselessVarTagRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

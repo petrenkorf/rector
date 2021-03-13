@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\MysqlToMysqli\Rector\FuncCall\MysqlPConnectToMysqliConnectRector;
 
 use Iterator;
-use Rector\MysqlToMysqli\Rector\FuncCall\MysqlPConnectToMysqliConnectRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

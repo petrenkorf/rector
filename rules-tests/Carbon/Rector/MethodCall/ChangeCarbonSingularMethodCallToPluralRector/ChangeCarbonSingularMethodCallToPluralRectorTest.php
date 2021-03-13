@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Carbon\Rector\MethodCall\ChangeCarbonSingularMethodCallToPluralRector;
 
 use Iterator;
-use Rector\Carbon\Rector\MethodCall\ChangeCarbonSingularMethodCallToPluralRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

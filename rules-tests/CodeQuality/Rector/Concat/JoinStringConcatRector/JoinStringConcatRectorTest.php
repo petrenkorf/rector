@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\Concat\JoinStringConcatRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\Concat\JoinStringConcatRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

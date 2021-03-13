@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\PHPUnit\Rector\MethodCall\WithConsecutiveArgToArrayRector;
 
 use Iterator;
-use Rector\PHPUnit\Rector\MethodCall\WithConsecutiveArgToArrayRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

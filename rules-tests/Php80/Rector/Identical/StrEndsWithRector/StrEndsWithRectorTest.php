@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php80\Rector\Identical\StrEndsWithRector;
 
 use Iterator;
-use Rector\Php80\Rector\Identical\StrEndsWithRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

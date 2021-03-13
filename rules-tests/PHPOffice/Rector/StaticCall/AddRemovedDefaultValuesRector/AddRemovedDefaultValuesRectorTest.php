@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\PHPOffice\Rector\StaticCall\AddRemovedDefaultValuesRector;
 
 use Iterator;
-use Rector\PHPOffice\Rector\StaticCall\AddRemovedDefaultValuesRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Rector\Tests\NetteKdyby\Rector\MethodCall\ReplaceEventManagerWithEventSubscriberRector;
 
-use Rector\NetteKdyby\Rector\MethodCall\ReplaceEventManagerWithEventSubscriberRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

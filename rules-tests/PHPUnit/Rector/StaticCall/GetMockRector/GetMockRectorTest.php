@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\PHPUnit\Rector\StaticCall\GetMockRector;
 
 use Iterator;
-use Rector\PHPUnit\Rector\StaticCall\GetMockRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

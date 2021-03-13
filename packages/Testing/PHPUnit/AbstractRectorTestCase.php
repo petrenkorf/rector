@@ -79,6 +79,9 @@ abstract class AbstractRectorTestCase extends AbstractKernelTestCase implements 
 
     protected function setUp(): void
     {
+        // speed up
+        @ini_set('memory_limit', '-1');
+
         $this->initializeDependencies();
 
         $configFileInfo = new SmartFileInfo($this->provideConfigFilePath());
@@ -121,7 +124,7 @@ abstract class AbstractRectorTestCase extends AbstractKernelTestCase implements 
 
         $inputFileInfo = $inputFileInfoAndExpectedFileInfo->getInputFileInfo();
 
-        // needed for PHPStan, because the analyzed file is just created in /temp
+        // needed for PHPStan, because the analyzed file is just created in /temp - need for trait and similar deps
         /** @var NodeScopeResolver $nodeScopeResolver */
         $nodeScopeResolver = $this->getService(NodeScopeResolver::class);
         $nodeScopeResolver->setAnalysedFiles([$inputFileInfo->getRealPath()]);

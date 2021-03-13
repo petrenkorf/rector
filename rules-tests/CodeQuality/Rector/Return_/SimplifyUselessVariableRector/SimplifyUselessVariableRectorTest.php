@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\Return_\SimplifyUselessVariableRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\Return_\SimplifyUselessVariableRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

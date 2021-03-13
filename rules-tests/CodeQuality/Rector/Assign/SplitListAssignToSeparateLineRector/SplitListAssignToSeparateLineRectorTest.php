@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\Assign\SplitListAssignToSeparateLineRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\Assign\SplitListAssignToSeparateLineRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

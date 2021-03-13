@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CakePHP\Rector\Namespace_\AppUsesStaticCallToUseStatementRector;
 
 use Iterator;
-use Rector\CakePHP\Rector\Namespace_\AppUsesStaticCallToUseStatementRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

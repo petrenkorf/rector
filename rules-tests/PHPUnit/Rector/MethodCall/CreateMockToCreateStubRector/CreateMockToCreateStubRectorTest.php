@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\PHPUnit\Rector\MethodCall\CreateMockToCreateStubRector;
 
 use Iterator;
-use Rector\PHPUnit\Rector\MethodCall\CreateMockToCreateStubRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

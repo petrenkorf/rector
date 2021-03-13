@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Naming\Rector\ClassMethod\MakeIsserClassMethodNameStartWithIsRector;
 
 use Iterator;
-use Rector\Naming\Rector\ClassMethod\MakeIsserClassMethodNameStartWithIsRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

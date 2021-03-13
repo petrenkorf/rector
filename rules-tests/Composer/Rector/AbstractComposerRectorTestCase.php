@@ -7,11 +7,7 @@ namespace Rector\Tests\Composer\Rector;
 use Nette\Utils\Json;
 use Rector\Composer\Modifier\ComposerModifier;
 use Rector\Core\HttpKernel\RectorKernel;
-<<<<<<< HEAD
-use Rector\Testing\Guard\FixtureGuard;
 use Rector\Tests\Composer\Contract\ConfigFileAwareInterface;
-=======
->>>>>>> c5eb25c058... decouple servies-packages.php config
 use Symplify\ComposerJsonManipulator\ComposerJsonFactory;
 use Symplify\EasyTesting\StaticFixtureSplitter;
 use Symplify\PackageBuilder\Testing\AbstractKernelTestCase;

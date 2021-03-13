@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\ClassMethod\AddArrayParamDocTypeRe
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\ClassMethod\AddArrayParamDocTypeRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class AddArrayParamDocTypeRectorTest extends AbstractRectorTestCase

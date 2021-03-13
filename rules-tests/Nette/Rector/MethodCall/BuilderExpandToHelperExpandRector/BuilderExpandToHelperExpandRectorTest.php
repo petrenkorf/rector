@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Nette\Rector\MethodCall\BuilderExpandToHelperExpandRector;
 
 use Iterator;
-use Rector\Nette\Rector\MethodCall\BuilderExpandToHelperExpandRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

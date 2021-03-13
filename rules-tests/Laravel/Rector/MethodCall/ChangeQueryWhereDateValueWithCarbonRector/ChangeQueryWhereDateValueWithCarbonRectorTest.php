@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Laravel\Rector\MethodCall\ChangeQueryWhereDateValueWithCarbonRector;
 
 use Iterator;
-use Rector\Laravel\Rector\MethodCall\ChangeQueryWhereDateValueWithCarbonRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

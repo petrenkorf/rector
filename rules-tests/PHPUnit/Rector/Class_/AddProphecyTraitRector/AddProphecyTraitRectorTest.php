@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\PHPUnit\Rector\Class_\AddProphecyTraitRector;
 
 use Iterator;
-use Rector\PHPUnit\Rector\Class_\AddProphecyTraitRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\EarlyReturn\Rector\If_\ChangeOrIfReturnToEarlyReturnRector;
 
 use Iterator;
-use Rector\EarlyReturn\Rector\If_\ChangeOrIfReturnToEarlyReturnRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

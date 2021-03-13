@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadCode\Rector\Array_\RemoveDuplicatedArrayKeyRector;
 
 use Iterator;
-use Rector\DeadCode\Rector\Array_\RemoveDuplicatedArrayKeyRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

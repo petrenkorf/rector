@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\PHPUnit\Rector\MethodCall\AssertComparisonToSpecificMethodRector;
 
 use Iterator;
-use Rector\PHPUnit\Rector\MethodCall\AssertComparisonToSpecificMethodRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

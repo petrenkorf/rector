@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Nette\Rector\ClassMethod\TranslateClassMethodToVariadicsRector;
 
 use Iterator;
-use Rector\Nette\Rector\ClassMethod\TranslateClassMethodToVariadicsRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

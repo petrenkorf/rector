@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DeadCode\Rector\Expression\SimplifyMirrorAssignRector;
 
 use Iterator;
-use Rector\DeadCode\Rector\Expression\SimplifyMirrorAssignRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

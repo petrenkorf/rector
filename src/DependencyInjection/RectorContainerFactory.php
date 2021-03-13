@@ -28,11 +28,7 @@ final class RectorContainerFactory
         $environment = $this->createEnvironment($configFileInfos);
 
         // mt_rand is needed to invalidate container cache in case of class changes to be registered as services
-<<<<<<< HEAD
-        $rectorKernel = new RectorKernel($environment . mt_rand(0, 1000), $isDebug);
-=======
         $rectorKernel = new RectorKernel($environment, $isDebug);
->>>>>>> 55cc6c2b0a... [CI] run tests per directory
         if ($configFileInfos !== []) {
             $configFilePaths = $this->unpackRealPathsFromFileInfos($configFileInfos);
             $rectorKernel->setConfigs($configFilePaths);

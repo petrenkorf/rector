@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php70\Rector\Variable\WrapVariableVariableNameInCurlyBracesRector;
 
 use Iterator;
-use Rector\Php70\Rector\Variable\WrapVariableVariableNameInCurlyBracesRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

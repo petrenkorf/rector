@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\MockeryToProphecy\Rector\ClassMethod\MockeryToProphecyRector;
 
 use Iterator;
-use Rector\MockeryToProphecy\Rector\ClassMethod\MockeryCreateMockToProphizeRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

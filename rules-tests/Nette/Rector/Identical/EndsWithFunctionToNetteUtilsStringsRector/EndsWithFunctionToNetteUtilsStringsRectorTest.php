@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Nette\Rector\Identical\EndsWithFunctionToNetteUtilsStringsRector;
 
 use Iterator;
-use Rector\Nette\Rector\Identical\EndsWithFunctionToNetteUtilsStringsRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

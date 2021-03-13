@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\If_\SimplifyIfIssetToNullCoalescingRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\If_\SimplifyIfIssetToNullCoalescingRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

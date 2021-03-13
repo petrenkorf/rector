@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\FunctionLike\ParamTypeDeclarationR
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\FunctionLike\ParamTypeDeclarationRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class UnionTypeParamTypeDeclarationRectorTest extends AbstractRectorTestCase

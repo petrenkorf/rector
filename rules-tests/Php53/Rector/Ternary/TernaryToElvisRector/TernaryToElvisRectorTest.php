@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php53\Rector\Ternary\TernaryToElvisRector;
 
 use Iterator;
-use Rector\Php53\Rector\Ternary\TernaryToElvisRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

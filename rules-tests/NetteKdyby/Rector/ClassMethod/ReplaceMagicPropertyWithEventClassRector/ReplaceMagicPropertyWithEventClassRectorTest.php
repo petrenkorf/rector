@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\NetteKdyby\Rector\ClassMethod\ReplaceMagicPropertyWithEventClassRector;
 
 use Iterator;
-use Rector\NetteKdyby\Rector\ClassMethod\ReplaceMagicPropertyWithEventClassRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

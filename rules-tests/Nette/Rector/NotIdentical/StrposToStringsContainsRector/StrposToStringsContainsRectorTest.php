@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Nette\Rector\NotIdentical\StrposToStringsContainsRector;
 
 use Iterator;
-use Rector\Nette\Rector\NotIdentical\StrposToStringsContainsRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

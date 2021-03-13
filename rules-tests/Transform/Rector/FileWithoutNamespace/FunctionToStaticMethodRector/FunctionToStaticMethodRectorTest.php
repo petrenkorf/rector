@@ -6,7 +6,6 @@ namespace Rector\Tests\Transform\Rector\FileWithoutNamespace\FunctionToStaticMet
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\Transform\Rector\FileWithoutNamespace\FunctionToStaticMethodRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class FunctionToStaticMethodRectorTest extends AbstractRectorTestCase

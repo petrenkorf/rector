@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php53\Rector\FuncCall\DirNameFileConstantToDirConstantRector;
 
 use Iterator;
-use Rector\Php53\Rector\FuncCall\DirNameFileConstantToDirConstantRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Php72\Rector\While_\WhileEachToForeachRector;
 
 use Iterator;
-use Rector\Php72\Rector\While_\WhileEachToForeachRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

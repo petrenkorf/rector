@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\Property\CompleteVarDocTypePropert
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\Property\CompleteVarDocTypePropertyRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 /**

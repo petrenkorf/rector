@@ -6,7 +6,6 @@ namespace Rector\Tests\TypeDeclaration\Rector\Property\PropertyTypeDeclarationRe
 
 use Iterator;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\TypeDeclaration\Rector\Property\PropertyTypeDeclarationRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class PropertyTypeDeclarationRectorTest extends AbstractRectorTestCase

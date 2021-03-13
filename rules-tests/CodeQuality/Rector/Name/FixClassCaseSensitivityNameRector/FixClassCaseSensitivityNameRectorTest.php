@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\CodeQuality\Rector\Name\FixClassCaseSensitivityNameRector;
 
 use Iterator;
-use Rector\CodeQuality\Rector\Name\FixClassCaseSensitivityNameRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

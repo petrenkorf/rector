@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\DoctrineCodeQuality\Rector\Class_\InitializeDefaultEntityCollectionRector;
 
 use Iterator;
-use Rector\DoctrineCodeQuality\Rector\Class_\InitializeDefaultEntityCollectionRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

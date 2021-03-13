@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Doctrine\Rector\Class_\RemoveRepositoryFromEntityAnnotationRector;
 
 use Iterator;
-use Rector\Doctrine\Rector\Class_\RemoveRepositoryFromEntityAnnotationRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
