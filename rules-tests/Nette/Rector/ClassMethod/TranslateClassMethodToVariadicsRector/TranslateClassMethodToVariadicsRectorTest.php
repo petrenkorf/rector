@@ -16,14 +16,6 @@ final class TranslateClassMethodToVariadicsRectorTest extends AbstractRectorTest
      */
     public function test(SmartFileInfo $fileInfo): void
     {
-        $localFilePath = __DIR__ . '/../../../../../../vendor/nette/utils/src/Utils/ITranslator.php';
-        if (file_exists($localFilePath)) {
-            $this->smartFileSystem->remove($localFilePath);
-        }
-
-        require_once __DIR__ . '/../../../../../stubs/Nette/Localization/ITranslation.php';
-
-        // to make test work with fixture
         $this->doTestFileInfo($fileInfo);
     }
 

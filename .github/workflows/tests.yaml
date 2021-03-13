@@ -19,15 +19,44 @@ jobs:
                     - rules-tests
                     - packages-tests
 
+<<<<<<< HEAD
         name: PHP ${{ matrix.php }} tests for ${{ matrix.path }}
+=======
+        name: PHP ${{ matrix.php }} tests in ${{ matrix.path }}
+>>>>>>> 055d49617d... cleanup test case
         steps:
             -   uses: actions/checkout@v2
 
-            -   uses: shivammathur/setup-php@v2
+            -
+                uses: actions/cache@v2
                 with:
+<<<<<<< HEAD
+<<<<<<< HEAD
                     php-version: ${{ matrix.php }}
                     coverage: none # disable xdebug, pcov
 
             -   uses: "ramsey/composer-install@v1"
 
+=======
+                    path: /tmp/rector/cache
+=======
+                    path: tmp/rector/cache
+>>>>>>> 9adfc38c15... add local kernel cache for directory
+                    key: ${{ runner.os }}-rector-kernel-${{ hashFiles('${{ matrix.path }}') }}
+                    restore-keys: |
+                        ${{ runner.os }}-rector-kernel-
+
+            -
+                uses: shivammathur/setup-php@v2
+                with:
+                    php-version: ${{ matrix.php }}
+                    # disable xdebug, pcov
+                    coverage: none
+
+<<<<<<< HEAD
+>>>>>>> f7f04d873f... [CI] run tests per directory
+=======
+            -   uses: "ramsey/composer-install@v1"
+
+>>>>>>> 9adfc38c15... add local kernel cache for directory
             -   run: vendor/bin/phpunit ${{ matrix.path }}

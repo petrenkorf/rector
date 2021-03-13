@@ -51,6 +51,11 @@ final class RectorKernel extends Kernel implements ExtraConfigAwareKernelInterfa
 
     public function getCacheDir(): string
     {
+        $cacheDirectory = $_ENV['KERNEL_CACHE_DIRECTORY'] ?? null;
+        if ($cacheDirectory) {
+            return $cacheDirectory;
+        }
+
         // manually configured, so it can be replaced in phar
         return sys_get_temp_dir() . '/rector/cache';
     }
