@@ -27,8 +27,8 @@ final class OptionalParametersAfterRequiredRectorTest extends AbstractRectorTest
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return OptionalParametersAfterRequiredRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

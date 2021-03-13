@@ -27,8 +27,8 @@ final class HelperFuncCallToFacadeClassRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return HelperFuncCallToFacadeClassRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

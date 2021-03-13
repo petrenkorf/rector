@@ -28,8 +28,8 @@ final class DowngradeListReferenceAssignmentRectorTest extends AbstractRectorTes
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return DowngradeListReferenceAssignmentRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

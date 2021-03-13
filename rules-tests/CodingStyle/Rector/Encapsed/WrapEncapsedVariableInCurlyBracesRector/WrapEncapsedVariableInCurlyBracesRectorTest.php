@@ -27,8 +27,8 @@ final class WrapEncapsedVariableInCurlyBracesRectorTest extends AbstractRectorTe
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return WrapEncapsedVariableInCurlyBracesRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

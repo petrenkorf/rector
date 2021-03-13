@@ -27,8 +27,8 @@ final class SimplifyIfIssetToNullCoalescingRectorTest extends AbstractRectorTest
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return SimplifyIfIssetToNullCoalescingRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

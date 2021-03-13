@@ -32,8 +32,8 @@ final class SimplifyUselessVariableRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return SimplifyUselessVariableRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

@@ -27,8 +27,8 @@ final class ReplaceMagicPropertyWithEventClassRectorTest extends AbstractRectorT
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return ReplaceMagicPropertyWithEventClassRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

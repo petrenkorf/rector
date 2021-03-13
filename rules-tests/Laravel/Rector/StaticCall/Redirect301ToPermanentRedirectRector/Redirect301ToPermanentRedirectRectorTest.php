@@ -27,8 +27,8 @@ final class Redirect301ToPermanentRedirectRectorTest extends AbstractRectorTestC
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return Redirect301ToPermanentRedirectRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

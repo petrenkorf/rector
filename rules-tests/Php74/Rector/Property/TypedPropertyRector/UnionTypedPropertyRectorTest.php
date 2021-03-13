@@ -27,8 +27,8 @@ final class UnionTypedPropertyRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/FixtureUnionTypes');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return TypedPropertyRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

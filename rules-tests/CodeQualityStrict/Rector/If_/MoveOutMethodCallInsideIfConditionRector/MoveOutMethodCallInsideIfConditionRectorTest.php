@@ -27,8 +27,8 @@ final class MoveOutMethodCallInsideIfConditionRectorTest extends AbstractRectorT
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return MoveOutMethodCallInsideIfConditionRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

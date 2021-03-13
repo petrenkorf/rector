@@ -17,8 +17,8 @@ final class ReplaceEventManagerWithEventSubscriberRectorTest extends AbstractRec
         $this->doTestExtraFile('Event/SomeClassCopyEvent.php', __DIR__ . '/Source/ExpectedSomeClassCopyEvent.php');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return ReplaceEventManagerWithEventSubscriberRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

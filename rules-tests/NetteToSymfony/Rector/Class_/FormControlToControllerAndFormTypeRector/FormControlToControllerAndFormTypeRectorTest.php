@@ -35,8 +35,8 @@ final class FormControlToControllerAndFormTypeRectorTest extends AbstractRectorT
         ];
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return FormControlToControllerAndFormTypeRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

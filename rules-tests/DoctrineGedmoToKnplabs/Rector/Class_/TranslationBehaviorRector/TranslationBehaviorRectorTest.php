@@ -18,8 +18,8 @@ final class TranslationBehaviorRectorTest extends AbstractRectorTestCase
         $this->doTestExtraFile('SomeClassTranslation.php', __DIR__ . '/Source/SomeClassTranslation.php');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return TranslationBehaviorRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

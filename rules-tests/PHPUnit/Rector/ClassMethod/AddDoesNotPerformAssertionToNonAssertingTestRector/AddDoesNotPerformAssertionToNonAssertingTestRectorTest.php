@@ -27,8 +27,8 @@ final class AddDoesNotPerformAssertionToNonAssertingTestRectorTest extends Abstr
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return AddDoesNotPerformAssertionToNonAssertingTestRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

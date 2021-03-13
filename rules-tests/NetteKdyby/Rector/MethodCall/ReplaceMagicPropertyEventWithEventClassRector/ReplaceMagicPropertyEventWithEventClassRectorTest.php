@@ -48,8 +48,8 @@ final class ReplaceMagicPropertyEventWithEventClassRectorTest extends AbstractRe
         ];
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return ReplaceMagicPropertyEventWithEventClassRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

@@ -30,8 +30,8 @@ final class FixClassCaseSensitivityNameRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return FixClassCaseSensitivityNameRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

@@ -27,8 +27,8 @@ final class SingularSwitchToIfRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return SingularSwitchToIfRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

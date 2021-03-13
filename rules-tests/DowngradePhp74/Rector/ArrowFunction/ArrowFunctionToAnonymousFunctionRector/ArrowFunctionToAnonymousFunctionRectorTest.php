@@ -28,8 +28,8 @@ final class ArrowFunctionToAnonymousFunctionRectorTest extends AbstractRectorTes
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return ArrowFunctionToAnonymousFunctionRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

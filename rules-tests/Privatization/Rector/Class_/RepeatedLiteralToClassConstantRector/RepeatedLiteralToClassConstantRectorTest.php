@@ -27,8 +27,8 @@ final class RepeatedLiteralToClassConstantRectorTest extends AbstractRectorTestC
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return RepeatedLiteralToClassConstantRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

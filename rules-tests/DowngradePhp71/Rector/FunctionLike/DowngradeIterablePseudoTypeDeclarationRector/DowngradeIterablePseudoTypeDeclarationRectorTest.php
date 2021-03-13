@@ -27,8 +27,8 @@ final class DowngradeIterablePseudoTypeDeclarationRectorTest extends AbstractRec
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return DowngradeIterablePseudoTypeDeclarationRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

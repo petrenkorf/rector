@@ -28,8 +28,8 @@ final class DowngradeNumericLiteralSeparatorRectorTest extends AbstractRectorTes
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return DowngradeNumericLiteralSeparatorRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

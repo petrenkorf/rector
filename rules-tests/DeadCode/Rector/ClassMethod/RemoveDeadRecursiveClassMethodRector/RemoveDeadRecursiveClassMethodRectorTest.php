@@ -27,8 +27,8 @@ final class RemoveDeadRecursiveClassMethodRectorTest extends AbstractRectorTestC
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return RemoveDeadRecursiveClassMethodRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

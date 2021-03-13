@@ -27,8 +27,8 @@ final class SensitiveDefineRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return SensitiveDefineRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

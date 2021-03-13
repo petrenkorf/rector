@@ -27,8 +27,8 @@ final class AddMockConsoleOutputFalseToConsoleTestsRectorTest extends AbstractRe
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return AddMockConsoleOutputFalseToConsoleTestsRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

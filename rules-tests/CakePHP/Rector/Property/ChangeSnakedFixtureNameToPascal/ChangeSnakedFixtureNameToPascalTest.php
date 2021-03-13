@@ -27,8 +27,8 @@ final class ChangeSnakedFixtureNameToPascalTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return ChangeSnakedFixtureNameToPascalRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

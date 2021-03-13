@@ -27,8 +27,8 @@ final class CreateFunctionToAnonymousFunctionRectorTest extends AbstractRectorTe
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return CreateFunctionToAnonymousFunctionRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

@@ -27,8 +27,8 @@ final class MbStrrposEncodingArgumentPositionRectorTest extends AbstractRectorTe
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return MbStrrposEncodingArgumentPositionRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

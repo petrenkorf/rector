@@ -40,8 +40,8 @@ final class MoveEntitiesToEntityDirectoryRectorTest extends AbstractRectorTestCa
         ];
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return MoveEntitiesToEntityDirectoryRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

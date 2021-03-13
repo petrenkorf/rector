@@ -27,8 +27,8 @@ final class AnnotatedPropertyInjectToConstructorInjectionRectorTest extends Abst
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return AnnotatedPropertyInjectToConstructorInjectionRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

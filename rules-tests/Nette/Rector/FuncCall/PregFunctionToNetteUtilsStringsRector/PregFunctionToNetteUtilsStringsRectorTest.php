@@ -27,8 +27,8 @@ final class PregFunctionToNetteUtilsStringsRectorTest extends AbstractRectorTest
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return PregFunctionToNetteUtilsStringsRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

@@ -27,8 +27,8 @@ final class SpecificAssertContainsWithoutIdentityRectorTest extends AbstractRect
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return SpecificAssertContainsWithoutIdentityRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

@@ -27,8 +27,8 @@ final class RemoveAlwaysTrueConditionSetInConstructorRectorTest extends Abstract
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return RemoveAlwaysTrueConditionSetInConstructorRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

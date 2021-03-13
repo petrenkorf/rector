@@ -28,8 +28,8 @@ final class Php8Test extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/FixturePhp8');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return ThrowWithPreviousExceptionRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

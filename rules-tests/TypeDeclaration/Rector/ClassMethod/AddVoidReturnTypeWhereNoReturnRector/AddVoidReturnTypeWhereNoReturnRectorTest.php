@@ -27,8 +27,8 @@ final class AddVoidReturnTypeWhereNoReturnRectorTest extends AbstractRectorTestC
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return AddVoidReturnTypeWhereNoReturnRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

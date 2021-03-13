@@ -27,8 +27,8 @@ final class SplitGroupedConstantsAndPropertiesRectorTest extends AbstractRectorT
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return SplitGroupedConstantsAndPropertiesRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

@@ -35,8 +35,8 @@ final class RenameSpecFileToTestFileRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture', '*.php');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return RenameSpecFileToTestFileRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

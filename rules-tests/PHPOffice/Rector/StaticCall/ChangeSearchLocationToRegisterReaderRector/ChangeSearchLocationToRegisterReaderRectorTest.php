@@ -27,8 +27,8 @@ final class ChangeSearchLocationToRegisterReaderRectorTest extends AbstractRecto
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return ChangeSearchLocationToRegisterReaderRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

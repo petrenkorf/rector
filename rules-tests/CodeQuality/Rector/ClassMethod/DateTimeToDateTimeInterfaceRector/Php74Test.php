@@ -28,8 +28,8 @@ final class Php74Test extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/FixturePhp74');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return DateTimeToDateTimeInterfaceRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

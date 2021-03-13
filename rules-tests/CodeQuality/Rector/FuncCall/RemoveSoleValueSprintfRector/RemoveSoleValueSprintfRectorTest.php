@@ -27,8 +27,8 @@ final class RemoveSoleValueSprintfRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return RemoveSoleValueSprintfRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

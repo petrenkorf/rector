@@ -27,8 +27,8 @@ final class SimplifyEmptyArrayCheckRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return SimplifyEmptyArrayCheckRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

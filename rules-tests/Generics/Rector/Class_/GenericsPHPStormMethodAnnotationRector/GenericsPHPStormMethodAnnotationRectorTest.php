@@ -27,8 +27,8 @@ final class GenericsPHPStormMethodAnnotationRectorTest extends AbstractRectorTes
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return GenericsPHPStormMethodAnnotationRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

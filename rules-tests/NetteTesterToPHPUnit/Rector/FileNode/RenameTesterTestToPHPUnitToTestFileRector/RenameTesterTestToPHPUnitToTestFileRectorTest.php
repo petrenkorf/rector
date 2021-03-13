@@ -38,8 +38,8 @@ final class RenameTesterTestToPHPUnitToTestFileRectorTest extends AbstractRector
         ];
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return RenameTesterTestToPHPUnitToTestFileRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

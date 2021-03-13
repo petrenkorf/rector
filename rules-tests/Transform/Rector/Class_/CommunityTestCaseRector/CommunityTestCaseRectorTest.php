@@ -38,8 +38,8 @@ final class CommunityTestCaseRectorTest extends AbstractRectorTestCase
         ];
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return CommunityTestCaseRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

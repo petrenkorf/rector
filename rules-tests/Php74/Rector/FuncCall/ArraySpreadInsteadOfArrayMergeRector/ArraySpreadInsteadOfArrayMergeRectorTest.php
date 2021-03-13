@@ -27,8 +27,8 @@ final class ArraySpreadInsteadOfArrayMergeRectorTest extends AbstractRectorTestC
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return ArraySpreadInsteadOfArrayMergeRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

@@ -28,8 +28,8 @@ final class DowngradeStaticTypeDeclarationRectorTest extends AbstractRectorTestC
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return DowngradeStaticTypeDeclarationRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

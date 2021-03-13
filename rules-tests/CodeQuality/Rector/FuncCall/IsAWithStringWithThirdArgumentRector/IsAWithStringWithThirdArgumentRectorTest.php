@@ -27,8 +27,8 @@ final class IsAWithStringWithThirdArgumentRectorTest extends AbstractRectorTestC
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return IsAWithStringWithThirdArgumentRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

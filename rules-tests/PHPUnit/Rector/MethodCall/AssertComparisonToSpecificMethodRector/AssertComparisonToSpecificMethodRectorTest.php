@@ -27,8 +27,8 @@ final class AssertComparisonToSpecificMethodRectorTest extends AbstractRectorTes
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return AssertComparisonToSpecificMethodRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

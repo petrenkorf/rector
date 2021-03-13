@@ -27,8 +27,12 @@ final class MigrateAtToConsecutiveExpectationsRectorTest extends AbstractRectorT
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
+<<<<<<< HEAD:rules-tests/PHPUnit/Rector/ClassMethod/MigrateAtToConsecutiveExpectationsRector/MigrateAtToConsecutiveExpectationsRectorTest.php
         return MigrateAtToConsecutiveExpectationsRector::class;
+=======
+        return __DIR__ . '/config/configured_rule.php';
+>>>>>>> 232f8d4dc6... use config based tests for rules:rules-tests/Naming/Rector/Property/UnderscoreToCamelCasePropertyNameRector/UnderscoreToCamelCasePropertyNameRectorTest.php
     }
 }

@@ -43,8 +43,8 @@ final class RemoveDeadStmtRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/FixtureRemovedComments');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return RemoveDeadStmtRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }

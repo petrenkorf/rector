@@ -30,8 +30,8 @@ final class FilterVarToAddSlashesRectorTest extends AbstractRectorTestCase
         return $this->yieldFilesFromDirectory(__DIR__ . '/Fixture');
     }
 
-    protected function getRectorClass(): string
+    public function provideConfigFilePath(): string
     {
-        return FilterVarToAddSlashesRector::class;
+        return __DIR__ . '/config/configured_rule.php';
     }
 }
