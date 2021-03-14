@@ -38,7 +38,7 @@
         "nette/robot-loader": "^3.4",
         "nette/utils": "^3.2",
         "nikic/php-parser": "^4.10.4",
-        "phpstan/phpdoc-parser": "dev-tv-add-attributes as 0.4.12",
+        "phpstan/phpdoc-parser": "dev-master#cfe3c78 as 0.4.12",
         "phpstan/phpstan": "^0.12.81",
         "phpstan/phpstan-phpunit": "^0.12.18",
         "sebastian/diff": "^4.0.4",
@@ -48,7 +48,6 @@
         "symfony/http-kernel": "^4.4.8|^5.1",
         "symfony/process": "^4.4.8|^5.1",
         "symfony/uid": "^4.4.8|^5.1",
-<<<<<<< HEAD
         "symplify/astral": "^9.2.11",
         "symplify/autowire-array-parameter": "^9.2.11",
         "symplify/console-color-diff": "^9.2.11",
@@ -59,18 +58,6 @@
         "symplify/skipper": "^9.2.11",
         "symplify/smart-file-system": "^9.2.11",
         "symplify/symfony-php-config": "^9.2.11",
-=======
-        "symplify/astral": "^9.2.4",
-        "symplify/autowire-array-parameter": "^9.2.4",
-        "symplify/console-color-diff": "^9.2.4",
-        "symplify/package-builder": "^9.2.4",
-        "symplify/rule-doc-generator": "^9.2.4",
-        "symplify/set-config-resolver": "^9.2.4",
-        "symplify/simple-php-doc-parser": "dev-main",
-        "symplify/skipper": "^9.2.4",
-        "symplify/smart-file-system": "^9.2.4",
-        "symplify/symfony-php-config": "^9.2.4",
->>>>>>> f6ec46d106... remove attribute aware return tag
         "webmozart/assert": "^1.10"
     },
     "require-dev": {
@@ -100,36 +87,7 @@
             "Rector\\": ["packages", "rules"],
             "Rector\\Core\\": "src",
             "Rector\\Compiler\\": "utils/compiler/src"
-        },
-        "files": [
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/PhpDocNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/PhpDocTagNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/PropertyTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/DeprecatedTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/ExtendsTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/ThrowsTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/InvalidTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/MethodTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/MethodTagValueParameterNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/GenericTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/ReturnTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/TemplateTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/PhpDocTextNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/ParamTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/PhpDoc/VarTagValueNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/ArrayTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/ThisTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/IdentifierTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/UnionTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/ConstTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/NullableTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/IntersectionTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/ArrayShapeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/ArrayShapeItemNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/GenericTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/CallableTypeNode.php",
-            "vendor/phpstan/phpdoc-parser/src/Ast/Type/CallableTypeParameterNode.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
@@ -193,11 +151,5 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/TomasVotruba/phpdoc-parser.git"
-        }
-    ]
+    "prefer-stable": true
 }
