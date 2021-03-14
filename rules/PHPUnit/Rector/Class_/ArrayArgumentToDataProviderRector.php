@@ -301,7 +301,7 @@ CODE_SAMPLE
 
     private function createDataProviderTagNode(string $dataProviderMethodName): PhpDocTagNode
     {
-        return new PhpDocTagNode('@dataProvider', new GenericTagValueNode( $dataProviderMethodName . '()'));
+        return new PhpDocTagNode('@dataProvider', new GenericTagValueNode($dataProviderMethodName . '()'));
     }
 
     /**
